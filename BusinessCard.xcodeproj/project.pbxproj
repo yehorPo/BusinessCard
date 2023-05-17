@@ -11,6 +11,14 @@
 		0FF8628C2A14FA1000A23F26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF8628B2A14FA1000A23F26 /* ContentView.swift */; };
 		0FF8628E2A14FA1100A23F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8628D2A14FA1100A23F26 /* Assets.xcassets */; };
 		0FF862912A14FA1100A23F26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF862902A14FA1100A23F26 /* Preview Assets.xcassets */; };
+		0FF862A02A14FD5A00A23F26 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF862982A14FD5900A23F26 /* Ubuntu-Light.ttf */; };
+		0FF862A12A14FD5A00A23F26 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF862992A14FD5900A23F26 /* Ubuntu-Italic.ttf */; };
+		0FF862A22A14FD5A00A23F26 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8629A2A14FD5900A23F26 /* Ubuntu-Medium.ttf */; };
+		0FF862A32A14FD5A00A23F26 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8629B2A14FD5900A23F26 /* Ubuntu-Bold.ttf */; };
+		0FF862A42A14FD5A00A23F26 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8629C2A14FD5900A23F26 /* Ubuntu-Regular.ttf */; };
+		0FF862A52A14FD5A00A23F26 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8629D2A14FD5900A23F26 /* Ubuntu-BoldItalic.ttf */; };
+		0FF862A62A14FD5A00A23F26 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8629E2A14FD5900A23F26 /* Ubuntu-LightItalic.ttf */; };
+		0FF862A72A14FD5A00A23F26 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8629F2A14FD5A00A23F26 /* Ubuntu-MediumItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		0FF8628B2A14FA1000A23F26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FF8628D2A14FA1100A23F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FF862902A14FA1100A23F26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FF862982A14FD5900A23F26 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		0FF862992A14FD5900A23F26 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		0FF8629A2A14FD5900A23F26 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		0FF8629B2A14FD5900A23F26 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		0FF8629C2A14FD5900A23F26 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		0FF8629D2A14FD5900A23F26 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0FF8629E2A14FD5900A23F26 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		0FF8629F2A14FD5A00A23F26 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		0FF862A82A14FE5300A23F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,8 @@
 		0FF862882A14FA1000A23F26 /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				0FF862A82A14FE5300A23F26 /* Info.plist */,
+				0FF862972A14FC7100A23F26 /* fonts */,
 				0FF862892A14FA1000A23F26 /* BusinessCardApp.swift */,
 				0FF8628B2A14FA1000A23F26 /* ContentView.swift */,
 				0FF8628D2A14FA1100A23F26 /* Assets.xcassets */,
@@ -65,6 +84,21 @@
 				0FF862902A14FA1100A23F26 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FF862972A14FC7100A23F26 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0FF8629B2A14FD5900A23F26 /* Ubuntu-Bold.ttf */,
+				0FF8629D2A14FD5900A23F26 /* Ubuntu-BoldItalic.ttf */,
+				0FF862992A14FD5900A23F26 /* Ubuntu-Italic.ttf */,
+				0FF862982A14FD5900A23F26 /* Ubuntu-Light.ttf */,
+				0FF8629E2A14FD5900A23F26 /* Ubuntu-LightItalic.ttf */,
+				0FF8629A2A14FD5900A23F26 /* Ubuntu-Medium.ttf */,
+				0FF8629F2A14FD5A00A23F26 /* Ubuntu-MediumItalic.ttf */,
+				0FF8629C2A14FD5900A23F26 /* Ubuntu-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +159,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF862A52A14FD5A00A23F26 /* Ubuntu-BoldItalic.ttf in Resources */,
 				0FF862912A14FA1100A23F26 /* Preview Assets.xcassets in Resources */,
+				0FF862A72A14FD5A00A23F26 /* Ubuntu-MediumItalic.ttf in Resources */,
+				0FF862A22A14FD5A00A23F26 /* Ubuntu-Medium.ttf in Resources */,
+				0FF862A32A14FD5A00A23F26 /* Ubuntu-Bold.ttf in Resources */,
+				0FF862A62A14FD5A00A23F26 /* Ubuntu-LightItalic.ttf in Resources */,
+				0FF862A02A14FD5A00A23F26 /* Ubuntu-Light.ttf in Resources */,
 				0FF8628E2A14FA1100A23F26 /* Assets.xcassets in Resources */,
+				0FF862A42A14FD5A00A23F26 /* Ubuntu-Regular.ttf in Resources */,
+				0FF862A12A14FD5A00A23F26 /* Ubuntu-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +312,7 @@
 				DEVELOPMENT_TEAM = JYQ7ND58GQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +342,7 @@
 				DEVELOPMENT_TEAM = JYQ7ND58GQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
